@@ -1,0 +1,99 @@
+.carousel {
+        width:  250px;
+        overflow:hidden;
+        margin: 50px auto;
+        position:relative;
+        background-color: #FAFAFA;
+     
+    }
+
+    .carousel ul {
+        width: 1000px;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .carousel ul li.item {
+        width: 250px;
+        text-align: center;
+        height: 300px;
+        list-style: none;
+        float:  left;
+        
+    }
+
+    .carousel ul li.item img {
+            height:150px; width:150px;
+        }
+
+    .item-content-title {
+        margin-top:10px;
+        width:250px;
+        float:left;
+         font-family:'Segoe UI';
+         font-size:16px;
+    }
+
+    .item-content-description {
+        margin-top:10px;
+        width:250px;
+        float:left;
+        font-family:'Arial';
+        font-size:12px;
+    }
+
+    .item-content {
+        height:200px;
+         width:250px;
+         float:left;
+         text-align:left;
+        
+    }
+    
+   .arrow-container_right {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color:black;
+        border-radius: 20%;
+   position: absolute;
+    right: 0;
+    top: 135px;
+    }
+
+   .arrow-container_left {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color:black;
+       border-radius: 20%;
+    position: absolute;
+    left: 0;
+    top: 135px;
+    }
+
+   .arrow { 
+        border-bottom: 5px solid white;
+        width: 10px;
+        height: 10px;
+        display:inline-block;
+    }
+
+    .right {
+    border-right: 5px solid white;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top:5px;
+    margin-right:5px;
+    cursor:pointer;
+    }
+
+    .left {
+        margin-top:5px;
+        margin-left:5px;
+    border-left: 5px solid white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);  
+    cursor:pointer;  
+    }
